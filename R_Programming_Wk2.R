@@ -1,0 +1,19 @@
+# Week 2 - R Programming
+# my first function
+
+add2 <- function(x,y) {
+  x+y
+}
+
+above10 <- function(x){
+  use <- x > 10
+  x[use]
+  
+}
+
+
+above <- function(x,n){
+  use <- x > 10
+  x[use]
+  
+}
